@@ -1,0 +1,66 @@
+{
+  "name": "2021-first-project",
+  "description": "2021-first-project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "CsvHelper": "[16.0.0]",
+    "Twilio": "[5.46.2]",
+    "UiPath.Excel.Activities": "[2.11.0-preview]",
+    "UiPath.Jira.Activities": "[2.3.0-preview]",
+    "UiPath.Mail.Activities": "[1.11.0-preview]",
+    "UiPath.MicrosoftOffice365.Activities": "[1.9.0]",
+    "UiPath.Python.Activities": "[1.3.0]",
+    "UiPath.ServiceNow.Activities": "[1.2.2]",
+    "UiPath.System.Activities": "[21.6.1-preview]",
+    "UiPath.Tableau.Activities": "[1.0.2]",
+    "UiPath.Twilio.Activities": "[1.1.0]",
+    "UiPath.UIAutomation.Activities": "[21.6.1-preview]",
+    "UiPath.WebAPI.Activities": "[1.8.0-preview]",
+    "UiPath.Word.Activities": "[1.7.0-preview]",
+    "UiPath.Workday.Activities": "[1.3.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "f4dbef6a-8f5a-4e59-9a88-0334a04dd10b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
